@@ -1,0 +1,6 @@
+@ApiNetDani_HostAddress = http://localhost:5283
+
+GET {{ApiNetDani_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

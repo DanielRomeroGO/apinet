@@ -1,0 +1,163 @@
+[
+  {
+    "ContainingType": "ApiNetDani.Controllers.EquipoController",
+    "Method": "Obtener",
+    "RelativePath": "api/Equipo/Get/{idEquipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idEquipo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNetDani.Controllers.EquipoController",
+    "Method": "Lista",
+    "RelativePath": "api/Equipo/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNetDani.Controllers.JugadorController",
+    "Method": "EditarJugador",
+    "RelativePath": "api/Jugador/EditarJugador/{idJugador}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idJugador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Edad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bandera",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdEquipo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNetDani.Controllers.JugadorController",
+    "Method": "Eliminar",
+    "RelativePath": "api/Jugador/Eliminar/{idJugador}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idJugador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNetDani.Controllers.JugadorController",
+    "Method": "Obtener",
+    "RelativePath": "api/Jugador/Get/{idJugador}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idJugador",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNetDani.Controllers.JugadorController",
+    "Method": "Guardar",
+    "RelativePath": "api/Jugador/Introducir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Edad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Bandera",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "IdEquipo",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNetDani.Controllers.JugadorController",
+    "Method": "Lista",
+    "RelativePath": "api/Jugador/Lista",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNetDani.Controllers.JugadorController",
+    "Method": "ListarPrecio",
+    "RelativePath": "api/Jugador/ListarPorEdad",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiNetDani.Controllers.JugadorController",
+    "Method": "VerBandera",
+    "RelativePath": "api/Jugador/VerBandera/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
